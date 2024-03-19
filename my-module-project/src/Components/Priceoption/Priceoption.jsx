@@ -11,13 +11,13 @@ const Priceoption = ({option}) => {
                <span className="text-3xl">/mon</span>
               </h2>
               <h3 className='text-2xl mt-2'>{name}</h3>
-              <p className='pl-4 mt-2 flex-grow'>
+              <div className='pl-4 mt-2 flex-grow'>
                    {
                     features.map((feature, idx)=> 
                          <h2 className='flex gap-2' key={idx}><span className='py-2 text-green-500 font-bold'><FaRegCircleCheck></FaRegCircleCheck></span>
                     {feature}</h2>)
                    }
-              </p>
+              </div>
               <button className='btn bg-green-500 w-full text-2xl mt-2'>Buy Now</button>
           </div>
      );

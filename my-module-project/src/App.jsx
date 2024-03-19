@@ -1,4 +1,5 @@
 
+import { Line, LineChart } from 'recharts'
 import './App.css'
 import Navbar from './Components/Navbar.jsx/Navbar'
 // import DaisyNav from './Components/Daisy UI/DaisyNav'
